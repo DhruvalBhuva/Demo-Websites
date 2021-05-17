@@ -1,0 +1,14 @@
+{
+  "name": "meal-ordering",
+  "version": "1.0.0",
+  "description": "This is meal ordering app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhruval",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

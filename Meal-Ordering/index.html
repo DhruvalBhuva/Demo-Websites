@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Ordering</title>
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Respone css -->
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 876px)"
+      href="Css/phoneStyle.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div class="logo">
+        <img src="Img/icon.jpg" alt="MealsOnline.com" />
+      </div>
+      <ul>
+        <li class="items"><a href="#home">Home</a></li>
+        <li class="items"><a href="#services-container">Services</a></li>
+        <li class="items"><a href="#client-section">About US</a></li>
+        <li class="items"><a href="#contact">Contact US</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nulla
+        optio temporibus, dignissimos neque iure voluptate assumenda nemo
+        expedita voluptatum.
+      </p>
+      <p>Quos nulla optio temporibus, dignissimos neque iure voluptate</p>
+      <button class="OrderBtn">Order Now</button>
+    </section>
+    <section id="services-container">
+      <h1 class="h-primary center">Our Services</h1>
+      <div id="services">
+        <div class="box">
+          <img src="Img/1.jpg" alt="" />
+          <h2 class="h-secondary center">Food Catering</h2>
+          <p class="center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            placeat hic officiis sint laboriosam est fugit, quas distinctio
+            totam voluptatibus debitis aliquid quod facilis quae velit ipsum eum
+            reprehenderit? Ullam doloremque error impedit pariatur?
+          </p>
+        </div>
+        <div class="box">
+          <img src="Img/2.jpg" alt="" />
+          <h2 class="h-secondary center">Food Ordering</h2>
+          <p class="center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            placeat hic officiis sint laboriosam est fugit, quas distinctio
+            totam voluptatibus debitis aliquid quod facilis quae velit ipsum eum
+            reprehenderit? Ullam doloremque error impedit pariatur?
+          </p>
+        </div>
+        <div class="box">
+          <img src="Img/3.jpg" alt="" />
+          <h2 class="h-secondary center">Bulk Ordering</h2>
+          <p class="center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            placeat hic officiis sint laboriosam est fugit, quas distinctio
+            totam voluptatibus debitis aliquid quod facilis quae velit ipsum eum
+            reprehenderit? Ullam doloremque error impedit pariatur?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="client-section">
+      <h1 class="h-primary center">Our Clients</h1>
+      <div id="clients">
+        <div class="client-items">
+          <img src="Img/appleLogo.png" alt="Our client" />
+        </div>
+        <div class="client-items">
+          <img src="Img/windows.png" alt="Our client" />
+        </div>
+        <div class="client-items">
+          <img src="Img/skype.png" alt="Our client" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1 class="h-primary center">Contact Us</h1>
+      <div id="contact-box">
+        <form action="" id="form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your username">
+                <small id="namevalid" class="form-text text-muted invalid-feedback">
+                        Your username must be 2-10 characters long and should not start with a number
+                      </small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="text" class="form-control" id="email" placeholder="Enter your email">
+                <small id="emailvalid" class="form-text text-muted invalid-feedback" style="color: red;">>
+                        Your email must be a valid email
+                      </small>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input class="form-control" name="phone" id="phone" placeholder="Enter Phone Number">
+                <small id="emailvalid" class="form-text text-muted invalid-feedback" style="color: red;">
+                        Your phone number must be 10 digit long
+                      </small>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div id="submitMsg">
+               <!-- Js -->
+            </div>
+        
+            
+            <div id="btn"><b>Submit</b></div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="center">
+        Copyright &copy; www.MealOrder.com. All rights reserved
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

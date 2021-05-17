@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'New Tegomin', serif;
+}
+#navbar{
+padding: 3px 4px;
+    background-color: black;
+    color: white;
+    position: sticky;
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 10px 15px;
+    margin: 2px 4px;
+}
+#navbar li:hover{
+    transform: scale(1.1);
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+#navbar li a:hover{
+    color: black;
+    box-shadow: 1px 1px 1px white,-1px -1px 1px white;
+    background-color: white;
+    border-radius: 3px;
+}
+/* Css for introSection */
+#introSection{
+    background: url(./static/bg.jpg) no-repeat center center/cover;
+    height: 650px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+}
+#introSection .welcomeNote{
+margin-top: 60px; 
+}
+#introSection .small{
+font-size: 2rem;}
+
+
+/* Css for missionSection */
+#ourMission {
+    height: 500px;
+margin: auto;
+width: 75%;
+}
+#ourMission  h2{
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding-top: 17px;
+    font-size: 2rem;
+    font-style: bolt;
+}
+.card{
+    display: inline-block;
+    background-color: rgb(255, 248, 249);
+    border-radius: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px #2c2c2c,-3px -3px 3px #2c2c2c;
+    width: 25%;
+    margin: 50px 15px;
+    padding: 10px 20px;
+    height: 300px;
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-img img{
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 10px 5px;
+}
+
+.card h3{
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 3px 3px 3px black,-3px -3px 3px black;
+}
+/* Css for sponsorSection */
+#sponsorSection {
+    height: 300px;
+    background-color: gray;
+    color: white;
+}
+#sponsorSection h2 {
+    text-align: center;
+    padding: 10px 20px;
+}
+#sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spImage {
+    margin: 16px 30px;
+    height: 150px;
+    /* width: 150px; */
+    /* border: 2px solid black; */
+}
+
+
+/* Css for footer */
+#footer {
+    height: 48px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
