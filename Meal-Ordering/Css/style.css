@@ -196,7 +196,7 @@ body {
 }
 form{
   width: 50%;
-  border: 2px solid black;
+  border: 2px solid rgb(5, 4, 4);
   border-radius: 30px;
   padding: 20px;
 }
